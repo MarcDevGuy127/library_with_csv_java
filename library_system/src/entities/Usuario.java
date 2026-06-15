@@ -3,7 +3,7 @@ package entities;
 public abstract class Usuario {
 	private String matricula, nome, tipoUsuario;
 	
-	// definindo o corpo de cada usuário
+	// definindo o corpo de cada usuario
 	public Usuario(String matricula, String nome, String tipoUsuario) {
 		this.matricula = matricula;
 		this.nome = nome;
